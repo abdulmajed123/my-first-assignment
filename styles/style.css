@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+
+nav h3{
+  font-size: 34px;
+  color: #8547FF;
+}
+
+.primary-color{
+  color: #8547FF;
+}
+
+ ul li {
+  list-style: none;
+
+}
+
+li a button{
+  font-size: 16px;
+  border: none;
+  background: #8547FF;
+  padding:  12px 36px;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
