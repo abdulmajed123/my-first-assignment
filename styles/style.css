@@ -3,7 +3,14 @@
   padding: 0;
 }
 
-nav{
+header{
+  background-image: url(/images/Hero-bg.png);
+  background-size: cover;
+  height: 500px;
+
+}
+
+.nav-bar{
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -15,6 +22,7 @@ nav{
 nav h3{
   font-size: 34px;
   color: #8547FF;
+  
 }
 
 .primary-color{
@@ -34,4 +42,27 @@ li a button{
   border-radius: 10px;
   color: #FFFFFF;
 }
+
+.header-title h1 , h2{
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+  
+}
+
+div{
+  text-align: center;
+}
+.button{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background:  #8547FF;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+
 
