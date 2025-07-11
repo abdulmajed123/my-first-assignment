@@ -135,5 +135,39 @@ main{
 }
 
 
+.section-area-01{
+  background: #d5d4f2;
+  height: 306px;
+  margin-top: 80px;
+  border-radius: 20px;
+}
+
+.productive-user-title{
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  padding: 50px 80px;
+}
+
+.productive-user-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 158px;
+  
+}
+
+.active-user-style h2{
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+.active-user p{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
 
 
