@@ -18,33 +18,23 @@ header{
   align-items: center;
   padding: 50px 0px;
 }
-h3{
-  font-size: 65px;
-  margin-top: 40px;
-  bottom: 40px;
+ul li {
+  list-style: none;
 }
-
 
 nav h3{
   font-size: 34px;
   color: #8547FF;
-  
+  font-weight: bold;
 }
 
-.primary-color{
-  color: #8547FF;
-}
 
- ul li {
-  list-style: none;
-
-}
 
 li a button{
   font-size: 16px;
   border: none;
   background: #8547FF;
-  padding:  12px 36px;
+  padding:  12px 30px;
   border-radius: 10px;
   color: #FFFFFF;
 }
@@ -89,7 +79,6 @@ main{
 
 #section-area{
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 200px;
   margin-top: 100px;
@@ -123,10 +112,6 @@ main{
 }
 
 
-/* .child-div{
-  text-align: left;
-
-} */
 
 .main-sub-div img{
   width: 403px;
@@ -174,10 +159,6 @@ main{
 
 
 
-/* .main-user-say{
-  display: flex;
-
-} */
 .our-user-say{
   width: 300px;
   height: 200px;
@@ -209,14 +190,6 @@ main{
   
   
 }
-
-.imgage-div image{
-  margin-top: 20px;
-}
-
-/* .main-user-say{
-  display: flex;
-} */
 
 #section-sub-area{
   width: 100%;
@@ -271,6 +244,7 @@ main{
   text-align: left;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .log-in-form input, textarea{
@@ -304,25 +278,3 @@ main{
   background: #2980b9;
   
 }
-
-
-
-/* .log-in-form label{
-  /* display: block; */
-  /* text-align: left; */
-  
-
-} */
-
-/* .log-in-form input[type="text"], .log-in-form input[type="email"], .log-in-form textarea[type="Message"] {
-  background-color: hwb(0 93% 6% / 0.922);
-  width: 90%;
-  font-size: 12px;
-  padding: 10px 20px;
-  border: #FFFFFF;
-  color: #000000;
-  border-radius: 5px;
-  margin-bottom: 10px; 
-}
-
-/ */
