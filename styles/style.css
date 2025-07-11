@@ -23,7 +23,7 @@ ul li {
 }
 
 nav h3{
-  font-size: 34px;
+  font-size: 50px;
   color: #8547FF;
   font-weight: bold;
 }
@@ -111,6 +111,10 @@ main{
 
 }
 
+.child-div-button:hover{
+  background: #2980b9;
+}
+
 
 
 .main-sub-div img{
@@ -165,9 +169,13 @@ main{
   margin: 50px 0px;
   padding: 20px;
   background-color: hsla(0, 12%, 95%, 0.705);
-
   border-radius: 15px;
 }
+
+.our-user-say:hover{
+  background: rgb(252, 252, 245);
+}
+
 
 .our-user-title{
   font-size: 20px;
@@ -185,7 +193,7 @@ main{
 .image-div{
   display: inline-block;
   display: flex;
-  align-items: center;
+  align-items: start;
   margin-bottom: 40px;
   
   
@@ -219,9 +227,58 @@ main{
   color: #B3B3B3;
 }
 
-.section-area-03{
+.section-area-04{
+  background:hsla(0, 12%, 95%, 0.705);
+  height: 500px;
+  border-radius: 10px;
+  padding: 71px 0px;
   margin-top: 20px;
-  margin-bottom: 20px;
+}
+
+.new-section-title{
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.new-section-description{
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+button{
+  padding: 12px 20px;
+  border: none;
+  font-size: 18px;
+  background: #4E47FF;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+ 
+}
+
+.new-div button:hover{
+  background: #2980b9;
+  
+}
+
+.image-div1 {
+  display: flex;
+  justify-content: center;
+}
+
+.new-section-banner{
+  border-radius: 40px;
+}
+
+
+.section-area-03{
+  margin-top: 100px;
+  
 }
 
 .lets-get{
@@ -262,14 +319,12 @@ main{
   background: none;
   border: none;
   font-size: 18px;
-  font-size: 18px;
   color: #FFFFFF;
 
 }
 .login-button {
   background: #4E47FF;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 
 
 }
@@ -280,11 +335,11 @@ main{
 }
 
 footer{
-  width: 100%;
-  height: 428px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
   
 }
 
@@ -305,6 +360,6 @@ footer{
   margin-top: 20px;
   margin-right: 30px;
   color: #8987A1;
-  
+
 }
 
